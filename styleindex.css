@@ -1,0 +1,369 @@
+html, body {
+    margin: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+
+body {
+    width: 500vw;
+    height: 100vh;
+    background-color: white;
+}
+
+body.dark-mode {
+    background-color: black;
+}
+
+#freedomButton {
+    background: none;
+    border: none;
+    padding: 0;
+
+    font-family: inherit;
+    font-size: inherit;
+    color: red;
+
+    cursor: pointer;
+}
+#starsBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#starsBackground2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    z-index: -1;
+}
+
+#starsBackground3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 210%;    
+    z-index: -1;
+
+}
+
+#starsBackground4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 310%;    
+    z-index: -1;
+
+}
+
+
+
+
+
+#title{
+    position: fixed;
+    top: 60%;
+    font-size: 60px;
+    font-weight: 500;
+    color: red;
+    z-index: 100;
+}
+
+
+
+/*
+#slideshow {
+    position: fixed;
+
+    top: 0;
+    left: 75%;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}
+
+*/ 
+
+#phoneBox {
+    position: absolute;
+    left: 300%;
+    bottom: 18%;
+    width: 800%;
+    height: 200%;
+    
+}
+
+#phoneHand {
+    width: 100%;
+    height: 100%;
+}
+
+#poem {
+    position: absolute;
+    top: 43vh;
+    left: 225vw;
+
+    font-size: 200px;
+    width: 250vw;
+    height: auto;
+
+    z-index: 100;
+    color: rgb(255, 255, 255);
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+#poem marquee {
+    display: block;
+    width: 120%;
+    height: 100%;
+}
+
+.blink {
+    animation: blink 10s infinite;
+    font-size: 24px;
+    color: rgb(209, 209, 209);
+    position: absolute;
+    top: 8%;
+    left: 258%;
+    width: 510%;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#smallText1{
+    position: fixed;
+    top: 2%;
+    left: 30%;
+    font-size: 16px;
+    color: red;
+    opacity: 70%;
+    z-index: 50;
+}
+
+
+#smallText2 {
+    position: fixed;
+    top:   5%;
+    font-size: 16px;
+    color: red;
+    opacity: 70%;
+
+}
+
+
+#notes1{
+    position: absolute;
+    top: 7%;
+    left: 100%;
+    width: 80%;
+    height: 50%;
+}
+
+#notes2 {
+    position: absolute;
+    top: 30%;
+    left: 140%;
+    width: 30%;
+    height: auto;
+
+}
+
+#notes3 {
+    position: absolute;
+    top: 50%;
+    left: 235%;
+    width: 30%;
+    height: 20%;
+
+}
+
+.smallTextMarquee2 {
+    z-index: 50;
+}
+
+#kneesText1{
+    position: fixed;
+    left: 0%;
+    top: 93%;
+    width: 50%;
+    height: 30%;
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    opacity: 70%;
+
+}
+
+#kneesText2{
+    position: fixed;
+    right: 0%;
+    top: 95%;
+    width: 70%;
+    height: 30%;
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    opacity: 70%;
+
+}
+
+
+#phoneHand{
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+    width: 800px;
+    height: 200px;
+}
+
+#handGun{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 25%;
+    width: auto;
+    height: 60%;
+}
+
+#L4D{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 60%;
+}
+
+#photoBooth1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 250%;
+}
+
+
+
+#L4D1{
+    position: absolute;
+    top: -5%;    
+    left: 100%;
+    bottom: 0%;
+    width: 150%;
+    height: auto;
+}
+
+#L4D2{
+    position: absolute;
+    top: 0%;    
+    left: 160%;
+    bottom: 0%;
+    width: 150%;
+    height: auto;
+    opacity: 5;
+}
+
+#audio-sweetTrip{
+    position: absolute;
+    bottom: 9%;
+    left: 101%;
+    opacity: 70%;
+}
+
+#balloon{
+    position: absolute;
+    top: 0%;
+    left: 400%;
+    width: auto;
+    height: 100%;
+}
+
+
+
+/* yearn2 b free */
+
+
+#text2{
+    position: absolute;
+    width: 30%; 
+    left: 30%;
+    font-size: 16px;
+    color: red;
+
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+
+
+body.dark-mode #L4D,
+body.dark-mode #handGun,
+body.dark-mode #photoBooth1, 
+body.dark-mode #handGun,
+body.dark-mode #L4D2{
+    display: none;
+}
+
+/* Light mode: original behaviour */
+#lightyluv {
+    display: block;
+}
+
+#darkyluv {
+    display: none;
+}
+
+/* Dark mode: switch which yluv is visible */
+body.dark-mode #lightyluv {
+    display: none;
+}
+
+body.dark-mode #darkyluv {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: max-content;
+    white-space: nowrap;
+
+    animation: poemTravel 30s linear infinite;
+}
+
+/* Travel from right to left */
+@keyframes poemTravel {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-250vw - 100%));    }
+}
