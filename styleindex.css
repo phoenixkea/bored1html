@@ -27,6 +27,40 @@ body.dark-mode {
 
     cursor: pointer;
 }
+
+
+/* THE CURSOR POEM */
+
+#poemCursor {
+    position: fixed;
+    display: none;
+    pointer-events: none;
+    z-index: 2147483647;
+
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+
+    white-space: nowrap;
+    transform: translate(20px, 20px);
+}
+
+.poem-placed {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+
+    white-space: nowrap;
+}
+
+
+
 #starsBackground {
     position: absolute;
     width: 100%;
